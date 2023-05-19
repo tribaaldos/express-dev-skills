@@ -20,7 +20,7 @@ function deleteOne(id) {
 
 function create(skill) {
     skill.id = Date.now() % 1000000;
-    skill.techstack = 'Do this later'
+    skill.techstack = 'for later'
     skills.push(skill)
     return skill
 }
